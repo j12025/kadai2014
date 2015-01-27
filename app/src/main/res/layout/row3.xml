@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+
+
+    <Spinner
+        android:id="@+id/spinner_add"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:entries="@array/categories"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/spinner_add2"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:entries="@array/colors"
+        android:gravity="center" />
+
+
+    <Button
+        android:id="@+id/btn_delete_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+        android:text="@string/btn_delete_row"
+        android:textSize="20sp"
+        android:onClick="onDeleteClicked"
+        android:gravity="center"/>
+
+</LinearLayout>

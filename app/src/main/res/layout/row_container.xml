@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textv_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/textv_simei"
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/btn_add_new_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:onClick="onAddNewClicked"
+        android:textSize="14sp"
+        android:paddingLeft="5dp"
+        android:text="@string/btn_add_new_text" />
+
+</LinearLayout>
